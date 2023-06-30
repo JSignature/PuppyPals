@@ -20,9 +20,9 @@ function App() {
         ))}
 
         {featPupId && (
-          <div>
+          <div className="selected">
             <h2>{featuredPup.name}</h2>
-            <ul>
+            <ul className="list">
               <li>Age: {featuredPup.age}</li>
               <li>Email: {featuredPup.email}</li>
             </ul>

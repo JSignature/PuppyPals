@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+.list {
+  color: rgb(4, 246, 250);
+  list-style-type: none;
+}
+
+.selected {
+  border: 5px solid white;
+  width: 20rem;
+  text-align: center;
+}
